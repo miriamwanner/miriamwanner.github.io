@@ -10,9 +10,9 @@ redirect_from:
 
 Incoming PhD student at JHU.
 
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=g4BNWQWy3bHlnME15wUD9mQD3OXPW-m0iqPCg88Kcxw&cl=ffffff&w=a"></script>
-
 <!--
+
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=g4BNWQWy3bHlnME15wUD9mQD3OXPW-m0iqPCg88Kcxw&cl=ffffff&w=a"></script>
 
 title
 ======
