@@ -8,7 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-Incoming PhD student at JHU.
+About Me
+---
+I am currently a PhD student at the Center for Language and Speech Processing (CLSP) at Johns Hopkins University. I am advised by [Mark Dredze](https://www.cs.jhu.edu/~mdredze/).
+
+Publications and Preprints
+---
+
+**2022**
+- Nathaniel Krasner, **Miriam Wanner**, Antonios Anastasopoulos. Revisiting the Effects of Leakage on Dependency Parsing. *In Findings of the Association for Computational Linguistics (ACL)*, 2022.
 
 <!--
 
