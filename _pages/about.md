@@ -16,7 +16,7 @@ Publications and Preprints
 ---
 
 **2022**
-- Nathaniel Krasner, **Miriam Wanner**, Antonios Anastasopoulos. Revisiting the Effects of Leakage on Dependency Parsing. *In Findings of the Association for Computational Linguistics (ACL)*, 2022.
+- Nathaniel Krasner, **Miriam Wanner**, Antonios Anastasopoulos. Revisiting the Effects of Leakage on Dependency Parsing. *In Findings of the Association for Computational Linguistics (ACL)*, 2022. [[paper]](https://aclanthology.org/2022.findings-acl.230/)
 
 <!--
 
