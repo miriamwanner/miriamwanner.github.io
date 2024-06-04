@@ -10,7 +10,7 @@ redirect_from:
 
 About Me
 ---
-I am currently a PhD student at the Center for Language and Speech Processing (CLSP) at Johns Hopkins University. I am advised by [Mark Dredze](https://www.cs.jhu.edu/~mdredze/).
+I am currently a PhD student at the Center for Language and Speech Processing (CLSP) at Johns Hopkins University, advised by [Mark Dredze](https://www.cs.jhu.edu/~mdredze/).
 
 Publications and Preprints
 ---
