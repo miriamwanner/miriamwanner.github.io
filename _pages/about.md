@@ -15,7 +15,6 @@ I am currently a PhD student at the Center for Language and Speech Processing (C
 Publications and Preprints
 ---
 **2024**
-- Zhengping Jiang, Jingyu Zhang, Nathaniel Weir, Seth Ebner, **Miriam Wanner**, Kate Sanders, Daniel Khashabi, Anqi Liu, Benjamin Van Durme. Core: Robust Factual Precision Scoring with Informative Sub-Claim Identification. 2024. [[preprint]](https://arxiv.org/pdf/2407.03572)
 - **Miriam Wanner**, Seth Ebner, Zhengping Jiang, Mark Dredze, Benjamin Van Durme. A Closer Look at Claim Decomposition. *\*SEM*, 2024. [[paper]](https://arxiv.org/abs/2403.11903)
 - **Miriam S. Wanner**, Jonathan A. Walter, Daniel C. Reuman, Tom W. Bell, & Max C.N. Castorani. Dispersal synchronizes giant kelp forests. *Ecology*, 2024. [[paper]](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.4270)
 
