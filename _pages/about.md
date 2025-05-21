@@ -15,7 +15,6 @@ I am currently a PhD student at the Center for Language and Speech Processing (C
 Publications and Preprints
 ---
 **2025**
-[//]: # (snippets, sinclair)
 - Jiefu Ou, William Gantt Walden, Kate Sanders, Zhengping Jiang, Kaiser Sun, Jeffrey Cheng, William Jurayj, **Miriam Wanner**, Shaobo Liang, Candice Morgan, Seunghoon Han, Weiqi Wang, Chandler May, Hannah Recknor, Daniel Khashabi, Benjamin Van Durme. CLAIMCHECK: How Grounded are LLM Critiques of Scientific Papers? 2025. [[preprint]](https://arxiv.org/abs/2503.21717)
 - Zhengping Jiang, Jingyu Zhang, Nathaniel Weir, Seth Ebner, **Miriam Wanner**, Kate Sanders, Daniel Khashabi, Anqi Liu, Benjamin Van Durme. Core: Robust Factual Precision Scoring with Informative Sub-Claim Identification. *In Findings of the Association for Computational Linguistics (ACL)*, 2025. [[preprint]](https://arxiv.org/pdf/2407.03572)
 
