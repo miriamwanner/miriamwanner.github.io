@@ -1,5 +1,6 @@
 # main links links
 main:
+
 # - title: "Publications"
 #   url: /publications/
 
@@ -15,8 +16,8 @@ main:
 #   - title: "Blog Posts"
 #     url: /year-archive/
     
-# ADD AGAIN  - title: "CV"
-# ADD AGAIN    url: /cv/
+- title: "CV"
+  url: /files/CV.pdf
     
 #   - title: "Guide"
 #     url: /markdown/
