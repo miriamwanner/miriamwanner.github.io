@@ -184,13 +184,14 @@ body.dark-mode h2 {
 
 /* Theme selector styling */
 .theme-dropdown {
-  position: absolute;
+  position: fixed;        /* changed from absolute */
   top: 1rem;
   right: 1rem;
   width: 35px;
   font-family: sans-serif;
   user-select: none;
   cursor: pointer;
+  z-index: 1000;         /* ensure it stays on top */
 }
 
 .theme-dropdown .selected {
@@ -225,4 +226,49 @@ body.dark-mode h2 {
 
 .theme-dropdown i {
   margin-right: 8px;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0.8rem;
+  }
+  
+  /* Stack about section on mobile */
+  .about-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-photo {
+    flex: 0 0 150px;      /* slightly smaller on mobile */
+    max-width: 150px;
+  }
+  
+  /* Better nav spacing on mobile */
+  nav {
+    font-size: 0.9rem;
+  }
+  
+  nav a {
+    margin: 0 0.4rem;
+    display: inline-block;
+  }
+  
+  /* Fix publication year headings */
+  .pub-list p {
+    margin-left: 0 !important;
+  }
+  
+  /* Move theme dropdown on mobile */
+  .theme-dropdown {
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 30px;
+  }
+  
+  .theme-dropdown .selected,
+  .theme-dropdown .option {
+    padding: 4px 8px;
+  }
 }
