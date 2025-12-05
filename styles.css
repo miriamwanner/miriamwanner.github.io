@@ -1,0 +1,228 @@
+/* Basic reset & typography */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fdfdfd;
+}
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Layout */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+header, footer {
+    text-align: center;
+    padding: 0rem 0;
+}
+header h1 {
+    margin-bottom: 0.2rem;
+}
+header p {
+    margin-top: 0;
+    color: #808080;
+    margin: 0.1rem 0;
+}
+
+nav {
+    text-align: center;
+    margin: 1rem 0;
+}
+nav a {
+    color: #b15fa2;       /* your custom color */
+    margin: 0 0.8rem;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #680088db;       /* hover color */
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.3rem;
+    color: #222;
+}
+
+.pub-list, .project-list {
+    list-style: decimal;
+    padding-left: 1.5rem;
+}
+.pub-list li, .project-list li {
+    margin-bottom: 0.8rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+    padding: 0.8rem;
+    }
+}
+
+.icon {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1.1em;
+    line-height: 1;
+    position: relative;
+    top: -0.1em;
+    vertical-align: middle;
+    font-size: 1em;    /* size of icons */
+    transition: opacity 0.2s; /* smooth hover effect */
+}
+.social-icons {
+    .fa {
+        color: #000;
+    }
+    .fa-linkedin,
+    .fa-linkedin-square {
+        color: #007bb6;
+    }
+    .fa-github,
+    .fa-github-alt,
+    .fa-github-square {
+        color: #171516;
+    }
+    .fa-twitter,
+    .fa-twitter-square {
+        color: #55acee;
+    }
+    .fa-graduation-cap {
+        color: #4285F4;
+    }
+}
+.social-icons a {
+  margin: 0 4px;       /* horizontal space between icons */
+}
+.social-icons a:hover .icon {
+  opacity: 0.75;       /* slight dim on hover */
+}
+.theme-icons {
+    .fa {
+        color: #000;
+    }
+    .fa-sun {
+        color: #f39c12;
+    }
+    .fa-moon {
+        color: #ffffffa5;
+    }
+}
+
+
+.about-section {
+  display: flex;
+  align-items: flex-start;   /* align top of text and photo */
+  gap: 30px;                 /* space between text and photo */
+  margin-bottom: 2rem;
+  flex-wrap: wrap;           /* allows photo to move below text on small screens */
+}
+
+.about-text {
+  flex: 1;                   /* text takes remaining space */
+}
+
+.about-photo {
+  flex: 0 0 180px;           /* fixed width for photo */
+}
+
+.profile-photo {
+  width: 100%;               /* fill the photo container */
+  height: auto;
+  object-fit: cover;         /* crop to fit nicely */
+  content: url('images/profile.jpg'); /* default/light mode photo */
+}
+
+/* Change profile photo for dark mode */
+body.dark-mode .profile-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;         /* crop to fit nicely */
+  content: url('images/profile-dark.jpg');
+}
+
+:root {
+  --bg-color: #fdfdfd;
+  --text-color: #333;
+  --link-color: #0066cc;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+a {
+  color: var(--link-color);
+}
+
+/* Dark theme */
+body.dark-mode {
+  --bg-color: #1e1e1e;
+  --text-color: #f0f0f0;
+  --link-color: #4ea8ff;
+}
+
+body.dark-mode h2 {
+  color: #f0f0f0;
+  border-bottom-color: #444;
+}
+
+/* Theme selector styling */
+.theme-dropdown {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 35px;
+  font-family: sans-serif;
+  user-select: none;
+  cursor: pointer;
+}
+
+.theme-dropdown .selected {
+  background-color: #f0f0f0;
+  padding: 6px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+}
+
+.theme-dropdown .options {
+  display: none; /* hidden by default */
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  margin-top: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  color: #333;
+}
+
+.theme-dropdown .option {
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.theme-dropdown .option:hover {
+  background-color: #e0e0e0;
+}
+
+.theme-dropdown i {
+  margin-right: 8px;
+}
