@@ -143,7 +143,7 @@ h2 {
   width: 100%;               /* fill the photo container */
   height: auto;
   object-fit: cover;         /* crop to fit nicely */
-  content: url('images/profile.jpg'); /* default/light mode photo */
+  content: url('images/profile_2025.jpg'); /* default/light mode photo */
 }
 
 /* Change profile photo for dark mode */
